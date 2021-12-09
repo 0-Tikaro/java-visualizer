@@ -1,0 +1,27 @@
+node {
+    size: 8px;
+    text-size: 20px;
+    fill-color: #CCC;
+
+    text-alignment: at-right;
+    text-color: white;
+    text-style: bold;
+    text-background-mode: rounded-box;
+    text-background-color: #222;
+    text-padding: 5px, 4px;
+    text-offset: 0px, 5px;
+}
+
+edge {
+    fill-color: #CCC;
+}
+
+node.file {
+    fill-color: #00A;
+    text-background-color: #002;
+}
+
+node.import {
+    fill-color: #A00;
+    text-background-color: #200;
+}
