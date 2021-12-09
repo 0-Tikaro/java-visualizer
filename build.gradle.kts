@@ -9,7 +9,11 @@ java.sourceCompatibility = JavaVersion.VERSION_11
 
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
+    implementation("org.graphstream:gs-core:2.0")
+    implementation("org.graphstream:gs-ui-javafx:2.0")
+    implementation("org.graphstream:gs-ui-swing:2.0")
 }
+
 repositories {
     mavenCentral()
 }
